@@ -25,10 +25,7 @@ options(htmltools.dir.version = FALSE)
 use_theme_github = function(theme = "tcgriffith/xaringan_theme_example", ref =
                               "master") {
   bn = basename(theme)
-  
   repo = paste0("https://github.com/", theme)
-  
-  
 
   cmd = paste0("git ls-remote ",repo," refs/heads/master")
   rslt = system(command=cmd, intern=TRUE)

@@ -41,7 +41,7 @@ use_theme_github = function(theme = "tcgriffith/xaringan_theme_example", ref =
   htmltools::includeCSS(css_name)
 }
 
-use_theme_github("tcgriffith/xaringan_theme_example", "83908f")
+use_theme_github("tcgriffith/xaringan_theme_example")
 ```
 
 ---
